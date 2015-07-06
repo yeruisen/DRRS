@@ -1,0 +1,99 @@
+/* CSS Document */
+#tt{
+width:11px;
+height:668px;
+float:left;
+}
+#f2{
+width:760px;
+height:auto;
+margin-left:20px;
+}
+#f3{
+width:500px;
+height:auto;
+margin-top:10px;
+margin-left:20px;
+}
+#f4{
+width:400px;
+height:550px;
+margin-top:10px;
+}
+#f7{
+width:80px;
+height:580px;
+float:left;
+margin-left:20px;
+margin-top:20px;
+}
+#f8{
+width:250px;
+height:580px;
+float:left;
+margin-left:10px;
+margin-top:20px;
+}
+
+#center1{
+	width:560px;
+	height:668px;
+	margin-left:60px;
+	float:left;
+	}
+#center3{
+	width:560px;
+	height:50px;
+	}
+#center4{
+	width:560px;
+	height:450px;
+	float:left;
+	}
+#center5{
+	width:560px;
+	height:40px;
+	margin-top:5px;
+	}
+#center6{
+	width:560px;
+	height:420px;
+	margin-top:5px;
+	}
+
+
+#le
+{
+	margin-left:0px;
+	margin-top:10px;
+	float:left;
+}
+#ce
+{
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+}
+#ri
+{
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+}
+#number
+{
+	margin-left:0px;
+	float:left;
+}
+#name
+{
+	float:left;
+}
+#style
+{
+	float:left;
+}
+#inputstyle
+{
+	float:left;
+}

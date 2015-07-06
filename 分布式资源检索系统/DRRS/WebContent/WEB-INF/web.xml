@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <listener>
+  <listener-class>system.CounterListener</listener-class>
+  </listener>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Control</servlet-name>
+    <servlet-class>action.Control</servlet-class>
+
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Control1</servlet-name>
+    <servlet-class>action.Control1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>just for StaffManager</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConvertServlet</servlet-name>
+    <servlet-class>action.ConvertServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>just for StaffManager</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>action.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>just for StaffManager</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Re_direction</servlet-name>
+    <servlet-class>action.Re_direction</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Control</servlet-name>
+    <url-pattern>/servlet/Control</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Control1</servlet-name>
+    <url-pattern>/servlet/Control1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConvertServlet</servlet-name>
+    <url-pattern>/servlet/ConvertServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/servlet/TestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Re_direction</servlet-name>
+    <url-pattern>/servlet/Re_direction</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>HomePage.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

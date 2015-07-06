@@ -1,0 +1,27 @@
+/* CSS Document */
+#main{
+	width:210px;
+	height:250px;
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+}
+#body{
+	width:200px;
+	height:200px;
+	margin-left:5px;
+	margin-top:5px;
+	float:left;
+	}
+#title{
+	width:200px;
+	height:40px;
+	margin-left:5px;
+	margin-top:5px;
+	float:left;
+	margin-left:auto;
+	text-align:center;
+	overflow:hidden;
+	}
+	
+	
